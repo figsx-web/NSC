@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/NSC',
   eslint: {
     ignoreDuringBuilds: true,
   },
